@@ -1,0 +1,27 @@
+# Binário compilado
+corelog-server
+
+# Banco de dados
+*.db
+*.db-shm
+*.db-wal
+
+# Dados e logs locais
+data/
+*.log
+
+# Frontend — dependências e build
+frontend/node_modules/
+frontend/dist/
+
+# Backend — UI embutida (gerada pelo build.sh)
+backend/ui/
+
+# IDE e sistema
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Agente
+.agent/
